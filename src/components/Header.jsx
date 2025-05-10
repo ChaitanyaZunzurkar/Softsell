@@ -34,7 +34,7 @@ const Header = ({ toggleDarkMode, isDarkMode }) => {
           {isMenuOpen ? '✕' : '☰'}
         </div>
         
-        <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`} style={{color:"white"}}>
+        <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`} style={{backgroundColor: 'white'}}>
           <li className="nav-item">
             <a href="#" className="nav-link">Home</a>
           </li>
